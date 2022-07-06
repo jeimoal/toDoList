@@ -53,18 +53,18 @@ h1 {
 /*Estilos da lista*/
 
 .lista {
+	position: relative;
 	box-sizing: border-box;
 	font-family: 'Arial Black', Arial;
 	list-style: none;
 	display: flex;
 	align-items: center;
-	height: 2.5rem;
 	padding: 0.5rem;
 	margin: .5rem;
 	max-width: 100%;
 	transition: ease background-color 0.6s;
 	background-color: var(--bgListaColor);
-	overflow: hidden;
+
 }
 
 .lista:hover {
@@ -113,9 +113,11 @@ h1 {
 .fecharItem {
 	text-align: center;
 	position: absolute;
-	width: 2rem;
-	top: 187;
-	right: 220;
+	width: 3rem;
+	padding: 0.5rem;
+	top: 0;
+	right: 0;
+	background-color: var(--bgFecharItem);;
 }
 
 .fecharItem:hover {
@@ -158,9 +160,6 @@ h1 {
 }
 
 .fecharItem {
-	position: absolute;
-	top: 282;
-	right: 30;
 	background-color: var(--bgFecharItem);
 }
 
