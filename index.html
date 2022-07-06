@@ -1,0 +1,25 @@
+<!DOCTYPE hmtl>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="todolist.css" rel="stylesheet" type="text/css">
+	<title>Lista de afazeres</title>
+</head>
+
+<body>
+	<section class="wrapper">
+		<section class="main">
+			<h1>atividades - <i>to do</i> List</h1>
+			<div class="incluirAfazer">
+				<button id="novaAtividade" class="fontePadrao btnEstiloPadrao">Nova atividade</button>
+				<input id="descricaoAtividade" type="text" placeholder="Descreva a nova atividade"/>
+				<input id="adicionarAtividade" class="btnAdicionar btnEstiloPadrao" type="button" value="+"/>
+				<button id="btnLimpar" class="btnEstiloPadrao">Limpar</button>
+			</div>
+		</section>
+		<ul id="minhaUL"></ul>
+	</section>
+</body>
+	<script src="todolist.js"></script>
+</html>
