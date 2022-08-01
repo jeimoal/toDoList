@@ -9,14 +9,6 @@ inputDescricaoAtividade.hidden = true;
 inputAdicionarAtividade.hidden = true;
 btnLimpar.hidden = true;
 
-//Cria botão de fechar cada item separadamente
-for (i = 0; i < removeItem.length; i++) {
-	removeItem[i].onclick = function() {
-	let div = this.parentElement;
-	div.style.display = "none";
-	}
-}
-
 //Habilita botões para adicionar nova atividade
 btnNovaAtividade.addEventListener('click', novaAtividade);
 function novaAtividade (){
